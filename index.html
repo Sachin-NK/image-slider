@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Image Slider - Pure JavaScript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Slider -->
+    <div class="slider">
+        <!-- Radio Controllers -->
+        <input type="radio" name="sld" id="sld1">
+        <input type="radio" name="sld" id="sld2">
+        <input type="radio" name="sld" id="sld3">
+        <input type="radio" name="sld" id="sld4">
+        <input type="radio" name="sld" id="sld5">
+
+        <!-- Slides -->
+        <div class="slides">
+            <!-- Slide 01 -->
+            <div class="slide curr">
+                <img src="./resources/img1.jpg" alt="">
+                <div class="desc">
+                    <h2>Beach Vollyball</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque molestiae commodi deserunt quibusdam sint, debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus! debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus!</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Slide 02 -->
+            <div class="slide">
+                <img src="./resources/img2.jpg" alt="">
+                <div class="desc">
+                    <h2>Football</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque molestiae commodi deserunt quibusdam sint, debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus! debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus!</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Slide 03 -->
+            <div class="slide">
+                <img src="./resources/img3.jpg" alt="">
+                <div class="desc">
+                    <h2>Cycling</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque molestiae commodi deserunt quibusdam sint, debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus! debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus!</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Slide 04 -->
+            <div class="slide">
+                <img src="./resources/img4.jpg" alt="">
+                <div class="desc">
+                    <h2>Tennis</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque molestiae commodi deserunt quibusdam sint, debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus! debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus!</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <!-- Slide 05 -->
+            <div class="slide">
+                <img src="./resources/img5.jpg" alt="">
+                <div class="desc">
+                    <h2>Cricket</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque molestiae commodi deserunt quibusdam sint, debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus! debitis pariatur facilis quae, modi corrupti autem voluptates ab animi aliquid beatae iure est voluptatibus!</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Arrow Navigation -->
+        <a href="#" class="arrow left"><i class="fas fa-arrow-circle-left"></i></a>
+        <a href="#" class="arrow right"><i class="fas fa-arrow-circle-right"></i></a>
+        <!-- Radio Navigation -->
+        <div class="rad-nav">
+            <label for="sld1" class="rad-btn active"></label>
+            <label for="sld2" class="rad-btn"></label>
+            <label for="sld3" class="rad-btn"></label>
+            <label for="sld4" class="rad-btn"></label>
+            <label for="sld5" class="rad-btn"></label>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
